@@ -1,0 +1,90 @@
+*{
+	margin:0;
+	padding:0;
+}
+html{
+	font-family: 'times new roman';
+}
+a{
+	text-decoration: none;
+}
+article{
+	display: inline-block;
+	box-shadow: 0px 5px 10px #888888;
+	margin-bottom: 50px;
+	min-height: 483px;
+}
+h2 a{
+	color:black;
+}
+.nav{
+	box-shadow: 0px 5px 10px #888888;
+	width: 100%;
+}
+
+.nav ul{
+	list-style-type: none;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.nav ul li{
+	display: inline;
+	padding-right: 30px;
+}
+.nav ul li a{
+	text-decoration: none;
+	color: black;
+}
+.nav ul li a:hover{
+	text-decoration: none;
+	font-style:italic;
+}
+
+.post-excerpt{
+	max-width: 100%;
+}
+.author-thumb{
+	width: 100%;
+	display:block;
+	margin:0 auto;
+}
+.post-meta{
+	width: 25vw;
+	min-width: 275px;
+	padding: 15px;
+}
+article h2 span{
+	color:black;
+}
+#content{
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+#by{
+	font-size: 8pt;
+	color:grey;
+}
+
+#join{
+	color: darkred;
+	border-left: solid darkred 1px;
+	padding-left: 30px;
+}
+
+#author-name a{
+	font-size:10pt;
+	color: grey;
+}
+#pages{
+	margin-top: 20px;
+}
+
+#test{
+	text-align: justify;
+	padding: 0 5%;
+}
+#yolo{
+	box-shadow: none;
+}
