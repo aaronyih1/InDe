@@ -62,7 +62,11 @@ height: 100px;
 .post-excerpt p{
 	display: inline-block;
 	text-overflow:ellipsis;
-	color:red;
+	color:black;
+	margin-top: 3px;
+}
+a:visited{
+	color:black;
 }
 .author-thumb{
 	width: 100%;
@@ -74,16 +78,20 @@ height: 100px;
 	height:380px;
 	padding: 15px;
 }
-.post-content p{
+
+/*.post-content p{
 	display: inline-block;
-}
+}*/
+
 .post-title a{
 	white-space: nowrap;
 	overflow:hidden;
 	display: inline-block;
 	text-overflow:ellipsis;
 	width: 100%;
+	margin-top: 3px;
 }
+
 /*.post-title a:hover{
 	overflow: visible;
 	white-space: normal;
@@ -101,7 +109,7 @@ height: 100px;
 	text-overflow      : ellipsis;
 	padding            : 0 !important;
 }
-.line-clamp a:after
+/*.line-clamp a:after
 {
 	content    : '[read more]';
 	text-align : right;
@@ -113,7 +121,7 @@ height: 100px;
 	position   : absolute;
 	height     : calc(1em * 1.5);
 	background : linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 70%);
-}
+}*/
 @supports (-webkit-line-clamp: 1)
 {
 	.line-clamp:after
@@ -185,6 +193,12 @@ article h2 span{
 	font-size:10pt;
 	color: grey;
 }
+
+#daysago-date{
+	font-size: 8pt;
+	color:grey;
+}
+
 #pages{
 	margin-top: 20px;
 }
