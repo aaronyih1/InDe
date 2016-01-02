@@ -58,6 +58,9 @@ h2 a{
 .post-excerpt{
 	max-width: 100%;
 }
+.post-excerpt a{
+	color: black;
+}
 .post-excerpt p{
 	display: inline-block;
 	text-overflow:ellipsis;
@@ -98,14 +101,14 @@ a:visited{
 }
 
 .page-title{
-	padding-top: 20vh;
+	padding-top: 3vh;
 }
-.page-content{
+.page-content div{
 	display: block;
 	margin: 0 auto;
-	min-width: 300px;
+	/*min-width: 300px;
 	width: 30%;
-	text-align: justify;
+	text-align: justify;*/
 }
 /*.post-title a:hover{
 	overflow: visible;

@@ -36,16 +36,16 @@ config = {
         // Example mail config
         // Visit http://support.ghost.org/mail for instructions
         // ```
-        //  mail: {
-        //      transport: 'SMTP',
-        //      options: {
-        //          service: 'Mailgun',
-        //          auth: {
-        //              user: '', // mailgun username
-        //              pass: ''  // mailgun password
-        //          }
-        //      }
-        //  },
+          mail: {
+              transport: 'SMTP',
+              options: {
+                  service: 'Mailgun',
+                  auth: {
+                      user: 'postmaster@indulgeindesign.org', // mailgun username
+                      pass: '5968e1485af1b418774eae86e39ffcd2'  // mailgun password
+                  }
+              }
+          },
         // ```
 
         // #### Database
