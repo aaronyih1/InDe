@@ -11,8 +11,17 @@ config = {
     // When running Ghost in the wild, use the production environment.
     // Configure your URL and mail settings here
     production: {
-        url: 'http://my-ghost-blog.com',
-        mail: {},
+        url: 'http://www.indulgeindesign.org',
+        mail: {
+            transport: 'SMTP',
+            options: {
+                service: 'Mailgun',
+                auth: {
+                    user: 'postmaster@indulgeindesign.org', // mailgun username
+                    pass: '5968e1485af1b418774eae86e39ffcd2'  // mailgun password
+                }
+            }
+        },
         database: {
             client: 'sqlite3',
             connection: {
